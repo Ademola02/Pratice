@@ -1,0 +1,11 @@
+li{
+	display: inline-block;
+}
+figure{
+	border:1px #cccccc solid;
+	margin: 0;
+}
+figcaption{
+	text-align: center;
+	padding: 20px;
+}

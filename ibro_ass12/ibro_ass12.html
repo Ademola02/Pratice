@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet"href="css/styles.css">
+	<title>FORMS</title>
+	<!--How to design forms using css:Assignment12-Sign up Ass2-->
+</head>
+<body>
+<div id="container">
+	<div id="lightblue_container">
+		<form>
+			<!-- Start of Sign up  -->
+			<button class="sign_up">SignUp Free</button>
+			<!-- Start of Sign up  -->
+
+			<!-- Start of input[type=text] -->
+			<div class="formgroup">
+				<input type="text" placeholder="Your Name">
+			</div>
+			<div class="formgroup">
+				<input type="text" placeholder="Your Email">
+			</div>
+			<div class="formgroup">
+				<input type="text" placeholder="Mobile Number">
+			</div>
+			<div class="formgroup">
+				<input type="text" placeholder="Password">
+			</div>
+			<div class="formgroup">
+				<input type="text" placeholder=" Confirm Password">
+			</div>
+			<!-- End of input[type=text]  -->
+			<!-- Start of Date of Birth  -->
+			<div class="formgroup">
+				<label class="date_of_birth">Date of Birth</label>
+				<select id="months">
+				  <option value="">Month</option>
+				  <option value="may">May</option>
+				  <option value="june">June</option>
+				  <option value="august">August</option>
+				</select>
+
+				<select id="days">
+				  <option value="">Day</option>
+				  <option value="monday">Monday</option>
+				  <option value="tuesday">Tuesday</option>
+				  <option value="wednesday">Wednesday</option>
+				</select>
+
+				<select id="years">
+				  <option value="">Year</option>
+				  <option value="2018">2018</option>
+				  <option value="2088">2088</option>
+				  <option value="1992">1992</option>
+				</select>
+			</div><br>
+			<!-- End of Date of Birth  -->
+			
+			<!-- Start of Gender  -->
+			<div class="formgroup">
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+			</div>
+			<!-- End of Gender  -->
+
+			<!-- Start of Terms -->
+			<div class="formgroup">
+				<input type="checkbox" id="terms"  value="">
+				<label for="terms"> I Agree To The Terms of Use</label>
+			</div>
+			<!-- End of Terms  -->
+
+			<button class="submit_now">Submit Now</button>
+		
+		</form>
+	</div>
+</div>
+</body>
+</html>

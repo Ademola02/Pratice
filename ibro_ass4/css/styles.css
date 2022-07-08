@@ -1,0 +1,15 @@
+li {
+	display: inline-block;
+	padding: 20px;
+}
+
+li:nth-child(3) {
+	background-color:lightskyblue;
+	text-align: center;
+}
+
+li:nth-child(4) {
+	font-weight: bolder;
+	padding-left: 80%;
+}
+    

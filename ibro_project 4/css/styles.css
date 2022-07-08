@@ -1,0 +1,124 @@
+	body{
+	padding: 0;
+	margin: 0;
+	background-color: purple;
+}
+.main_container {
+	display: flex;
+	flex-direction: column;
+}
+/* Beginning firstchild_container*/
+.header_container {
+	margin-top: 40px;
+}
+
+.header_container_content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header_container_content div {
+	width: 300px;	
+	margin: 1px;
+}
+a{
+	color: black;
+	text-align: center;
+	background-color: #ffc600;
+    line-height: 40px;
+    width: 100%;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+}
+/*End of firstchild_container*/
+/*Beginning of secondchild_container*/
+.banner_container{
+	display: flex;
+	height: 450px;
+}
+.food_container{
+	flex-grow: 3;
+}
+.food_container_content{
+	height: 400px;
+	margin: 30px 30px 0px 17px;
+   background-image: url(../image/food.jpg);
+	background-size: 900px 400px;
+}
+.money_container{
+	flex-grow: 1.5;
+}
+.money_container_content{
+	display: flex;
+	padding: 30px;
+	height: 400px;
+	flex-direction: column;
+}
+.money_container_content div{
+	display: block;
+	background-color: #ffc600;
+	height: 190px;
+}
+.second_dollar{
+	margin-top: 20px;
+}
+
+h1{
+	margin-top: 30px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	font-weight: bold;
+}
+/*Ending of second_child_container*/
+/*Beginning of third_child_container*/
+.minerals_container{
+	border: 2px solid;
+	padding: 17px;
+}
+.minerals_container_content{
+	display: flex;
+	height: 200px;
+	text-align: center;
+	border: 2px solid green;
+	justify-content: space-between;
+}
+.minerals_container_content div{
+	background-color: white;
+	width: 400px;
+	margin: 5px;
+	height: 150px;
+}
+.minerals_container h1{
+	font-size: 20px;
+	margin-top: 2px;
+}
+.minerals_container p{
+    margin-top: 2px;
+    font-size: 15px;
+}
+/* for smaller screens */
+@media (min-width: 300px) and (max-width: 1200px ) {
+	.header_container_content{
+		align-items: center;
+		flex-direction: column;		
+	}
+	.header_container_content div{
+		margin-top: 10px;
+		width: 60%;
+	}
+	.money_container_content{
+		padding: 0px;
+		margin-top: 4px;
+	}
+	.taco_container_content{
+		margin: 0;
+	}
+	.banner_continer{
+		flex-direction: column;
+
+	}
+}

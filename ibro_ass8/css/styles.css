@@ -1,0 +1,27 @@
+body{
+	background-color: #404040;
+}
+table{
+background-color: white;
+border-collapse: collapse;
+padding: 10px;
+border-style: solid;
+padding-left: 2px;
+margin-left: 50px;
+margin-top: 20px;
+}
+th{
+text-align: left;
+background-color: #ff7d66;
+color: white;
+width: 25%;
+padding: 10px
+}
+td{
+text-align: left;
+width: 25%;
+padding: 10px;
+}
+.even{
+background-color: whitesmoke;
+}

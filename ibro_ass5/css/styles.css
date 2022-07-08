@@ -1,0 +1,17 @@
+body{
+	background-color: black;
+}
+ul{
+  text-align:right;
+}
+li{
+	display: inline-block;
+    padding: 10px;
+    background-color: black;
+    color:white ;
+}
+li:nth-child(5) {
+	font-weight: bolder;
+	border-radius: 15px;
+background-color: #66dfff;
+}
